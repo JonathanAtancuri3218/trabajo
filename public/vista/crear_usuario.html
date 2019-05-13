@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link href="../../estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="group">
+ <form id="formulario01" method="POST" action="../controladores/crear_usuario.php">
+    <h2><em>Formulario de Registro</em></h2>
+
+ <label for="nombres">Nombres (*)</label>
+ <input type="text" id="nombres" class="form-input" name="nombres" value="" placeholder="Ingrese sus dos nombres
+..." required/>
+ <br>
+ <label for="apellidos">Apelidos (*)</label>
+ <input type="text" id="apellidos" class="form-input"  name="apellidos" value="" placeholder="Ingrese sus dos apellidos
+..." required/>
+ <br>
+ <label for="correo">Correo electrónico (*)</label>
+ <input type="email" id="correo" class="form-input" name="correo" value="" placeholder="Ingrese su correo electrónico
+..." required/>
+ <br>
+ <label for="contrasena">Contraseña (*)</label>
+ <input type="password" id="contrasena" class="form-input" name="contrasena" value="" placeholder="Ingrese su
+contraseña ..." required/>
+<br>
+ <input type="submit" id="crear" name="crear" value="Aceptar" />
+ <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+ </form>
+</div>
+</body>
+</html>
