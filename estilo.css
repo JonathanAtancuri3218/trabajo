@@ -57,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	height: 15px;
 	margin-bottom: 15px;
 	color:black;
-	background-color: #FF9;
+
 	border: 1px solid #999;
 	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
 	-moz-transition: all 0.4s ease-in-out;
@@ -73,6 +73,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding-bottom: 5px;
 	padding-left: 10px;
 }
+
+.form-input2 {
+	display: block;
+	width: 380px;
+	height: 200px;
+	margin-bottom: 15px;
+	color:black;
+	
+	border: 1px solid #999;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	behavior: url(PIE.htc);
+	font-family: "Century Gothic";
+	font-size: 14px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+
 
 /* Focus style */
 .form-input:focus {
@@ -143,6 +168,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	behavior: url(PIE.htc);
 }
 
+
 label {
 	margin-bottom: 8px;
 	display: block;
@@ -151,7 +177,6 @@ label {
 	font-size: 14px;
 	font-weight: bold;
 }
-
 label span {
 	font-size: 12px;
 	color:#333;

@@ -6,7 +6,8 @@
 </head>
 <body>
 <div class="group">
- <form id="formulario01" method="POST" action="../controladores/crear_usuario.php">
+
+ <form id="formulario01" method="POST"   enctype="multipart/form-data"  action="../controladores/crear_usuario.php">
     <h2><em>Formulario de Registro</em></h2>
 
  <label for="nombres">Nombres (*)</label>
@@ -25,7 +26,12 @@
  <input type="password" id="contrasena" class="form-input" name="contrasena" value="" placeholder="Ingrese su
 contraseña ..." required/>
 <br>
- <input type="submit" id="crear" name="crear" value="Aceptar" />
+<p>Selecciona la imagen a subir</p>
+<input type="file" name="image" />
+<br>
+
+
+ <input type="submit" id="submit" name="submit" value="Aceptar" />
  <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
  </form>
 </div>

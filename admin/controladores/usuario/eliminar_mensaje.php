@@ -2,7 +2,7 @@
 <html>
 <head>
  <meta charset="UTF-8">
- <title>Eliminar datos de persona </title>
+ <title>Eliminar mensaje </title>
 </head>
 <body>
 <?php
@@ -15,8 +15,8 @@
  //$sql = "DELETE FROM usuario WHERE codigo = '$codigo'";
  date_default_timezone_set("America/Guayaquil");
  $fecha = date('Y-m-d H:i:s', time());
- $sql = "UPDATE usuarios SET usu_eliminado = 'S', usu_fecha_modificacion = '$fecha' WHERE
-usu_codigo = $codigo";
+ $sql = "UPDATE mensajes SET men_eliminado = 'S', men_fecha_modificacion = '$fecha' WHERE
+men_codigo = $codigo";
  if ($conn->query($sql) === TRUE) {
  echo "<p>Se ha eliminado los datos correctamemte!!!</p>";
  } else {

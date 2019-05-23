@@ -19,3 +19,14 @@ table {
  th {
     background: #eee;
  }
+
+ header h1{
+	margin: 0em;
+	padding: 1em;
+	text-align: left;
+	line-height: 100px;
+	
+}
+nav a{
+	font-size: 1em;
+}
